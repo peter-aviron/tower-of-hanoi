@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end; 
+    /* need the towers to sit at the bottom */
+}
+.tower {
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    /*bring disc down to bottom*/
+}
